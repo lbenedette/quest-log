@@ -1,5 +1,7 @@
 @extends('base')
 
 @section('content')
-    <p>{{ $task->body }}</p>
+    <h2>{{ $task->title }}</h2>
+
+    {{ $task->body }}
 @endsection
